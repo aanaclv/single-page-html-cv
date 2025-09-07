@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(230, 227, 227);
+}
+
+p{
+    text-align: justify;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+main{
+    margin: 20px 200px 0 200px;
+    border: 1px solid rgb(167, 157, 157);
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.topico{
+    color: rgb(94, 36, 121);
+    margin-top: 5px;
+}
+
+.subtopico{
+    color: rgb(49, 32, 68);
+    margin-top: 15px;
+}
+
+#contatos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(216, 189, 241);
+    gap: 10px;
+}
+
+#links{
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    margin: 0 5px;
+    font-weight: bold;
+}
